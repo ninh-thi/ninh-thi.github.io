@@ -29,6 +29,8 @@ a, .btn {
 .logo {
     color: white;
     font-size: 17px;
+    margin-left: 100px;
+    padding-right: 100px;
 }
 
 .logo:hover {
@@ -41,7 +43,7 @@ nav, .nav-links {
 }
 
 nav {
-    justify-content: space-around;
+    justify-content: normal;
     align-items: center;
     height: 100px;
 }
