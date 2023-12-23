@@ -147,3 +147,29 @@ a:hover {
 .hamburger-icon.open span:last-child{
     transform: rotate(-45deg) translate(5px, -8px);
 }
+
+/* Sections */
+.home {
+    padding: 6vw 8vw;
+    position: absolute;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40vh;
+}
+
+.home-content {
+    color: var(--color-white);
+    font-size: 3vw;
+    line-height: 6vw;
+    width: 45;
+}
+
+.home-content h1 {
+    font-weight: 100;
+}
+
+.home-portrait img {
+    max-width: 100%;
+    height: auto;
+}
