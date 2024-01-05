@@ -149,27 +149,36 @@ a:hover {
 }
 
 /* Sections */
-.home {
+#desktop-home {
     padding: 6vw 8vw;
     position: absolute;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40vh;
+    gap: 2vw;
 }
 
 .home-content {
     color: var(--color-white);
-    font-size: 3vw;
-    line-height: 6vw;
-    width: 45;
+    font-size: 4rem;
+    line-height: 8rem;
 }
 
 .home-content h1 {
     font-weight: 100;
 }
 
-.home-portrait img {
+#small-home {
+    display: none;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 3vw;
+}
+
+
+/* .home-portrait img {
     max-width: 100%;
     height: auto;
-}
+} */
+
+

@@ -8,3 +8,14 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    #desktop-home {
+        display: none;
+    }
+    #small-home {
+        display: flex;
+    }
+}
+
+
+
